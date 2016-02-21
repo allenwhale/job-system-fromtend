@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/allenwhale/.nvm/versions/node/v5.5.0/bin/node',
+1 verbose cli   '/home/allenwhale/.nvm/versions/node/v5.5.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle nctucs@0.0.1~predev: nctucs@0.0.1
+6 silly lifecycle nctucs@0.0.1~predev: no script for predev, continuing
+7 info lifecycle nctucs@0.0.1~dev: nctucs@0.0.1
+8 verbose lifecycle nctucs@0.0.1~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle nctucs@0.0.1~dev: PATH: /home/allenwhale/.nvm/versions/node/v5.5.0/lib/node_modules/npm/bin/node-gyp-bin:/home/allenwhale/frontend-template/node_modules/.bin:/home/allenwhale/.nvm/versions/node/v5.5.0/bin:/home/allenwhale/.gvm/pkgsets/go1.5.3/global/bin:/home/allenwhale/.gvm/gos/go1.5.3/bin:/home/allenwhale/.gvm/pkgsets/go1.5.3/global/overlay/bin:/home/allenwhale/.gvm/bin:/home/allenwhale/.gvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/allenwhale
+10 verbose lifecycle nctucs@0.0.1~dev: CWD: /home/allenwhale/frontend-template
+11 silly lifecycle nctucs@0.0.1~dev: Args: [ '-c', 'NODE_ENV=development node devServer.js' ]
+12 silly lifecycle nctucs@0.0.1~dev: Returned: code: 1  signal: null
+13 info lifecycle nctucs@0.0.1~dev: Failed to exec dev script
+14 verbose stack Error: nctucs@0.0.1 dev: `NODE_ENV=development node devServer.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/home/allenwhale/.nvm/versions/node/v5.5.0/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/allenwhale/.nvm/versions/node/v5.5.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:821:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid nctucs@0.0.1
+16 verbose cwd /home/allenwhale/frontend-template
+17 error Linux 4.2.0-27-generic
+18 error argv "/home/allenwhale/.nvm/versions/node/v5.5.0/bin/node" "/home/allenwhale/.nvm/versions/node/v5.5.0/bin/npm" "run" "dev"
+19 error node v5.5.0
+20 error npm  v3.3.12
+21 error code ELIFECYCLE
+22 error nctucs@0.0.1 dev: `NODE_ENV=development node devServer.js`
+22 error Exit status 1
+23 error Failed at the nctucs@0.0.1 dev script 'NODE_ENV=development node devServer.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the nctucs package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     NODE_ENV=development node devServer.js
+23 error You can get their info via:
+23 error     npm owner ls nctucs
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
